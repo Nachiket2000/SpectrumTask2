@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2';
+    /* background: url("https://wallpaperaccess.com/full/2797176.jpg");  */
+    /* background-color: #373737; */
+}
+.logo img{
+width: 300px;
+
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3rem;
+  height: 4.5rem;
+  color:black;
+  font-weight: bolder;
+}
+
+
+.container-fluid{
+  background-image: url(spectrum.png);
+  height:100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  padding:0.8rem;
+  
+
+}
+.navbar-nav li{
+  padding-right: 20px;
+  
+
+}
+.nav-link{
+  font-size:1.3em  !important;
+  
+}
+.padding{
+  padding-bottom:2rem;
+}
+.aboutus h2{
+ text-decoration:none;
+ font-size:4rem;
+ font-weight:bold;
+ text-align: center;
+
+
+}
+.aboutus p{
+  text-align: center;
+}
+#about h2{
+  border-top:5px solid #e9bdf1;
+  border-bottom: 5px solid #e9bdf1;
+  padding:20px;
+  background-color: #e9bdf1;
+
+}
+.wingbox{
+  border-top:5px solid #e9bdf1;
+  border-bottom: 5px solid #e9bdf1;
+  padding:20px;
+  background-color: #e9bdf1;
+}
+.wings h2{
+  text-decoration: none;
+  font-size:4rem;
+  font-weight:bold;
+ 
+ }
+ .wings hr{
+  background-color: #e9bdf1;
+  height:2px;
+  width:65%;
+  margin:0 auto;
+}
+.wings p{
+  text-align:center;
+}
+#first img{
+  width: 20%;
+}
+.projectbox{
+  border-top:5px solid #e9bdf1 ;
+  border-bottom:5px solid #e9bdf1;
+  padding:20px;
+  background-color: #e9bdf1;
+}
+.projects h2{
+  text-decoration: none;
+  font-size:4rem;
+  font-weight:bold;
+ 
+ }
+
+.projects hr{
+  background-color: #e9bdf1;
+  height:2px;
+  width:65%;
+  margin:0 auto;
+}
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.7);
+  transition: box-shadow 500ms,background 3s ;
+   transition-delay: 500ms;
+}
+.card a:hover{
+  background-color: lightgray;
+ color:black;
+  transition: box-shadow 500ms,background 3s ;
+   transition-delay: 500ms;
+}
+
+.connectbox{
+  border-top:5px solid #e9bdf1 ;
+  border-bottom:5px solid #e9bdf1;
+  padding:20px;
+  background-color: #e9bdf1 ;
+  
+
+}
+.connect h2{
+  text-decoration: none;
+  font-size:4rem;
+  font-weight:bold;
+ 
+ }
+.connect hr{
+  background-color: #e9bdf1;
+  height:2px;
+  width:65%;
+  margin:0 auto;
+}
+.social a{
+  font-size:3.6rem;
+  padding:3rem;
+}
+.fa-facebook{
+  color:white;
+}
+
+.fa-linkedin{
+  color:white;
+}
+.fa-instagram{
+  color: 
+  white;
+}
+.fa-github{
+  color:white;
+}
+
+footer{
+  background-color:#353436;
+  color:#d5d5d5;
+  padding-top:2rem;
+}
+footer a{
+  color:#d5d5d5;
+  text-decoration: none;
+}
+footer a:hover{
+  color:blanchedalmond;
+  text-decoration: none;
+}
+hr.light{
+  border-top:1px solid #d5d5d5;
+  width:100%;
+  margin-top:0.8rem;
+  margin-bottom:1rem;
+}
+hr.light-100{
+  border-top:1px solid #d5d5d5;
+  width:100%;
+  margin-top:0.8rem;
+  margin-bottom:1rem;
+}
+
+.reveal{
+  position:relative;
+  transform:translateY(150px);
+  opacity:0;
+  transition: all 1s ease;
+}
+.reveal.active{
+  transform:translateY(0px);
+  opacity:1
+}
+/*---Media Queries---*/
+@media(max-width:992px){
+  .social a{
+          font-size:4rem;
+          padding:2rem;
+  }
+
+  
+}
+@media(max-width:768px){
+  .carousel-caption{
+  
+  top:45%;
+ 
+}
+.carousel-caption h1{
+  font-size:350%;
+}
+.carousel-caption h3{
+  font-size:140%;
+  
+}
+.display-4{
+  font-size:200%;
+}
+.social a{
+  font-size:2rem;
+  padding:1.2rem;
+}
+}
+@media(max-width:576px){
+  .carousel-caption{
+  
+      top:40%;
+     
+  }
+  .carousel-caption h1{
+      font-size:250%;
+  }
+  .carousel-caption h3{
+      font-size:110%;
+      
+  }
+  .carousel-indicators{
+      display:none;
+  }
+  
+
+  
+  .display-4{
+      font-size:160%;
+  }
+  .social a{
+      font-size:1.5rem;
+      padding:1.0rem;
+  }
+}
+
+/* PARALLAX */
+.ram1{
+	position: relative;
+	color: black;
+	margin-top: 0;
+}
+.parallax{
+	background-image: url(https://wallpaperaccess.com/full/2797176.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.parallax p{
+	font-family: 'Pacifico', cursive;
+	position: relative;
+	top: 100px;
+	font-size: 1.5rem;
+	left: 150px;
+	align-content: stretch;
+	justify-content: center;
+	font-weight: bold;
+	/* line-height: 90px; */
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+}
+@media screen and (max-width:420px) {
+  .parallax p{
+   width: 80%;
+  }
+}
+.btn,
+button{
+    border-radius: 35px;
+    color:#0568c1;
+    background: white;
+   
+
+}
+.btn:hover,
+button:hover{
+    transition: 0.5s ease;
+    color: black;
+    
+}
+.btn{
+  font-size: 22px !important;
+
+}
+#navbarResponsive a{
+  text-decoration: none;
+}
