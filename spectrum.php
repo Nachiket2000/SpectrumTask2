@@ -47,8 +47,8 @@ session_start();
                         </li>
                         
                     </ul>
-                    <a href="logout.php">
-                    <button class="btn" type="submit" name="submit">Logout</button>
+                    <a href="profile.php">
+                    <button class="btn" type="submit" name="submit">Profile</button>
                 </a>
                 </div>
             </nav>

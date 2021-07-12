@@ -34,6 +34,10 @@ session_start();
             $pass = $email_pwd['password'];
 
             $_SESSION['username'] = $email_pwd['name'];
+            $_SESSION['email1'] = $email_pwd['email'];
+            $_SESSION['branch1'] = $email_pwd['branch'];
+            $_SESSION['year1'] = $email_pwd['year'];
+            $_SESSION['domain1'] = $email_pwd['domain'];
 
            
 
